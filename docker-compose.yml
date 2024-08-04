@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  paper2speech:
+    build: .
+    volumes:
+      - .:/app  # プロジェクト全体をマウント
+    command: streamlit run src/app.py
+    ports:
+      - "8501:8501"  # Streamlitのデフォルトポートをホストに公開
