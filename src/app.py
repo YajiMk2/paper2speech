@@ -1,6 +1,6 @@
 import streamlit as st
-from text_file_creator import create_text_file
-from text_to_speech import create_audio_file
+from create_text_file import create_text_file
+from text2speech import create_audio_file
 from translate import translate_abstract
 from search_papers import search_papers
 

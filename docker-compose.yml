@@ -5,6 +5,6 @@ services:
     build: .
     volumes:
       - .:/app  # プロジェクト全体をマウント
-    command: streamlit run src/app.py
+    command: streamlit run /app/src/app.py
     ports:
       - "8501:8501"  # Streamlitのデフォルトポートをホストに公開
