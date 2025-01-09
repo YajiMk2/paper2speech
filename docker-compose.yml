@@ -1,8 +1,9 @@
 version: '3.8'
 
 services:
-  paper2speech:
+  app:
     build: .
+    container_name: paper2speech
     volumes:
       - .:/app  # プロジェクト全体をマウント
     command: streamlit run /app/src/app.py
