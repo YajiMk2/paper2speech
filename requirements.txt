@@ -1,3 +1,5 @@
-openai
-arxiv
+pypdf
 streamlit
+transformers
+sentencepiece
+pydub
