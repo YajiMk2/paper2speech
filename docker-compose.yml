@@ -9,3 +9,4 @@ services:
     command: streamlit run /app/src/app.py
     ports:
       - "8501:8501"  # Streamlitのデフォルトポートをホストに公開
+    tty: true
